@@ -1,2 +1,13 @@
 https://www.youtube.com/watch?app=desktop&v=J6k9IStBYyU //Full Wave Rectifier (Form Factor & Ripple Factor)
 https://www.electronics-tutorials.ws/diode/diode_6.html //Ripple_Voltage
+https://www.electronics-notes.com/articles/analogue_circuits/power-supply-electronics/capacitor-smoothing-circuits.php //Ripple_Voltage
+
+
+The use of an inductor prevents the current from building up or dying down too quickly. If the inductor 
+is made large enough, the current becomes continuous and nearly constant. The inductor prevents the current 
+from ever reaching the peak value which would otherwise be reached without a filter inductor. Consequently, 
+the output voltage never reaches the peak value of the applied sine wave. Thus, a rectifier whose output is 
+filtered by an inductor cannot produce as high a voltage as that could be produced by a rectifier filtered by a 
+capacitor. However, this disadvantage is partly compensated because the inductor filter permits a larger current 
+without a serious change in output voltage. This is the reason that an inductor filter is suitable for high power 
+applications
